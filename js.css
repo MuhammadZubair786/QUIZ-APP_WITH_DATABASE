@@ -1,0 +1,55 @@
+form {
+    margin-top: 100px;
+    margin-left: 40px
+  }
+  .input-field {
+    position: relative;
+    width: 250px;
+    height: 44px;
+    line-height: 44px;
+    background-color: #F32F53;
+
+
+
+  }
+  #label1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: black;
+
+    transition: 0.2s all;
+    cursor: text;
+    background-color: #F32F53;
+    
+  }
+  #name {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    box-shadow: none;
+    color:white;
+    background-color:#F32F53;
+    font-weight: bold;
+
+
+  }
+  #name:invalid {
+    outline: 0;
+   
+  }
+  #name:focus,
+  #name:valid {
+    border-color: black;
+  }
+  #name:focus~#label1,
+  #name:valid~#label1 {
+    font-size: 20px;
+    font-weight: bold;
+    top: -24px;
+    color: white;
+  }
+  

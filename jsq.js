@@ -175,7 +175,7 @@ var resultdb={
     correct_ans : score,
     wrong_ans : wrong,
     score: score*10,
-    quiz : "CSS QUIZ",
+    quiz : "JS QUIZ",
     percentage : ((score*100)/10) +"%",
     Remark : rmark,
 
